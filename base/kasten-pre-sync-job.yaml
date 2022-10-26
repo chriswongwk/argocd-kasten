@@ -37,7 +37,7 @@ spec:
              EOF
             
              # Wait until the backup action is complete 
-             count=30
+             count=60
              delay=3
              total_time=$((count*delay))
              while true 
